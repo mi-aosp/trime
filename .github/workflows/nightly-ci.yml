@@ -21,7 +21,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          ref: 'db3fdf5'
 
       - name: Setup Java
         uses: actions/setup-java@v4
