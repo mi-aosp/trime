@@ -8,6 +8,7 @@ on:
   #schedule:
   #  - cron: '0 16 * * *' # UTC 16:00 / GMT+8 0:00, daily
 
+
 env:
   CI_NAME: Nightly CI
 jobs:
@@ -20,6 +21,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          ref: 'db3fdf5'
 
       - name: Setup Java
         uses: actions/setup-java@v4
