@@ -25,6 +25,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          ref: 'db3fdf5'
 
       - name: Get branch name
         id: vars
